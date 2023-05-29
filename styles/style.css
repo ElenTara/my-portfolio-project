@@ -25,7 +25,7 @@ h1 {
   color: var(--quarternary-color);
   font-size: 60px;
   line-height: 1.5;
-  text-shadow: 1px 1px 2px #6e5773;
+  text-shadow: 1px 1px 2px var(--tertiary-color);
 }
 h2 {
   font-size: 40px;
@@ -35,6 +35,7 @@ h3 {
 }
 
 p {
+  color: var(--tertiary-color);
   font-weight: normal;
   font-size: 16px;
   line-height: 28px;
@@ -62,6 +63,7 @@ nav a {
 nav li.active a {
   color: var(--branding-color);
   text-decoration: none;
+  text-shadow: 1px 1px 1px rgba(240, 58, 101, 0.253);
 }
 nav a:hover {
   color: var(--quarternary-color);
@@ -76,7 +78,8 @@ nav a:hover {
   padding: 0 10px;
 }
 .hero,
-.about-section {
+.about-section,
+.projects-container {
   background: var(--secondary-color);
   /* text-align: center;*/
   padding: 20px 20px;
@@ -144,6 +147,7 @@ nav a:hover {
 .skills-container {
   font-size: 60px;
   max-width: 600px;
+  padding-bottom: 40px;
 }
 .skills-icon {
   color: var(--tertiary-color);
@@ -153,6 +157,11 @@ nav a:hover {
   font-size: 18px;
   line-height: 0.1;
 }
+
+.projects-container img {
+  border-radius: 15px;
+}
+
 footer {
   margin: 60px 0;
 }
@@ -204,6 +213,9 @@ footer .social-links a:hover {
   nav li {
     margin-left: 10px;
   }
+  .logo {
+    width: 45px;
+  }
   .about-section {
     padding: 0;
     text-align: center;
@@ -212,7 +224,11 @@ footer .social-links a:hover {
     padding: 0;
     text-align: center;
   }
-  .logo {
-    width: 45px;
+
+  .hero {
+    padding: 10px 20px !important;
+  }
+  .img-hero {
+    margin-bottom: 5px !important;
   }
 }
