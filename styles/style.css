@@ -79,7 +79,8 @@ nav a:hover {
 }
 .hero,
 .about-section,
-.projects-container {
+.projects-container,
+.content {
   background: var(--secondary-color);
   /* text-align: center;*/
   padding: 20px 20px;
