@@ -83,7 +83,7 @@ nav a:hover {
 .content {
   background: var(--secondary-color);
   /* text-align: center;*/
-  padding: 20px 20px;
+  padding: 20px 20px 20px 40px;
 }
 
 .hero-content p,
@@ -163,6 +163,10 @@ h2,
 p {
   margin-bottom: 40px;
 }
+.projects-container h2 {
+  margin-top: 20px;
+}
+
 footer {
   margin: 60px 0;
 }
@@ -175,14 +179,6 @@ footer .contact-box p {
   margin: 0px;
 }
 
-footer .email-link {
-  text-decoration: none;
-  color: black;
-  font-size: 24px;
-}
-footer .email-link:hover {
-  color: var(--branding-color);
-}
 footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
@@ -207,11 +203,6 @@ footer .social-links a:hover {
   }
   h3 {
     font-size: 26px;
-  }
-  .projects-container h1,
-  h2,
-  p {
-    margin-bottom: 20px;
   }
   nav a {
     font-size: 14px;
@@ -246,6 +237,14 @@ footer .social-links a:hover {
   .skills-icon {
     font-size: 45px;
     width: 40px;
+  }
+  .projects-container h1,
+  h2,
+  p {
+    margin-bottom: 20px;
+  }
+  .projects-container h2 {
+    margin-top: 0;
   }
   .project-description {
     text-align: center;
