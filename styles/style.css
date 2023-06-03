@@ -194,6 +194,11 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 900px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   h1 {
     font-size: 42px;
     line-height: 64px;
@@ -210,6 +215,7 @@ footer .social-links a:hover {
   nav li {
     margin-left: 10px;
   }
+
   .logo {
     width: 40px;
   }
@@ -217,12 +223,10 @@ footer .social-links a:hover {
     padding: 0 !important;
     text-align: center;
   }
-  .content {
-    padding: 0;
-    text-align: center;
-  }
 
-  .hero {
+  .hero,
+  .content,
+  .projects-container {
     padding: 10px 20px !important;
     text-align: center;
   }
@@ -230,6 +234,7 @@ footer .social-links a:hover {
     margin-bottom: 5px !important;
     max-width: 60%;
   }
+
   .skills-container {
     max-width: 70%;
     padding-bottom: 20px;
@@ -238,6 +243,10 @@ footer .social-links a:hover {
     font-size: 45px;
     width: 40px;
   }
+  .skill-name {
+    font-size: 14px;
+  }
+
   .projects-container h1,
   h2,
   p {
